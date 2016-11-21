@@ -1,0 +1,51 @@
+
+body {
+  background-color: #9fdfbe;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #4d805e;
+}
+
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.items {
+  text-align: center;
+  margin-right: 1rem;
+  width: 20%;
+  padding: 1rem 0;
+
+}
+
+
+.portalLinks {
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  color: #4d805e;
+  text-decoration: none;
+  padding: .25rem;
+}
+
+
+.portalLinks:hover {
+  color: #7070a9;
+}
+
+.special:hover {
+  background-color: #afafcf;
+}
+
+.specialActive:active {
+  padding: 1rem 5px;
+  background-color:  #cfafbf;
+}
